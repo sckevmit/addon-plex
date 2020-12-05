@@ -49,8 +49,8 @@ ARG BUILD_REF
 ARG BUILD_VERSION
 
 # Labels
-LABEL \
-    io.hass.name="Plex Media Server" \
+LABEL \ 
+    io.hass.name="Plex Media Server SD" \
     io.hass.description="Recorded media, live TV, online news, and podcasts ready to stream" \
     io.hass.arch="${BUILD_ARCH}" \
     io.hass.type="addon" \
